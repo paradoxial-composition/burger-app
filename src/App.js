@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import Layout from './components/Layout/Layout';
 
+import Layout from './components/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
+
+/* jshint ignore:start */
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Layout>
-          <p>Testing ...</p>
+          <BurgerBuilder />
         </Layout>
       </div>
     );
